@@ -9,7 +9,7 @@ const Authentication = () => {
         <AuthenticationContainer>
             <SignInForm />
             <SignUpForm />
-            </AuthenticationContainer>
+        </AuthenticationContainer>
     )
 }
 
