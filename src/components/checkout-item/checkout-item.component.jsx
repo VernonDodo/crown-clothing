@@ -1,11 +1,11 @@
-import { React, useContext } from 'react';
+import { React } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 
 import { selectCartItems } from '../../store/cart/cart.selector';
 import { addItemToCart,clearItemFromCart, removeItemFromCart } from '../../store/cart/cart.action';
 
-import {CheckoutItemContainer, ImageContainer, BaseSpan, Quantity, Arrow, Value, RemoveButton } from './checkout-item.styles';
+import {CheckoutItemContainer, ImageContainer, BaseSpan, Quantity, Arrow,  RemoveButton } from './checkout-item.styles';
 
 const CheckoutItem = ({cartItem}) => {
     
